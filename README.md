@@ -14,21 +14,11 @@ You can find more on my [portfolio](https://towhidulislam27.github.io/) and
 
 ### Projects on GitHub
 
-**[bGMO](https://github.com/TowhidulIslam27/bGMO)** (Bangladesh Ground Motion Observatory).
-A web map of land movement in Dhaka, Chattogram, Khulna, Barishal, Sylhet and Cumilla,
-built from Sentinel-1 PS-InSAR results for 2016 to 2024. You can click any point to see
-its displacement over time, and switch to a combined product that separates vertical
-and east-west motion. The processing scripts, the site and the data are all in the
-repository. The map itself is at [bmgo.sarsense.com](https://bmgo.sarsense.com).
-
-**[Portfolio](https://github.com/TowhidulIslam27/towhidulIslam27.github.io)**. The source
-for my personal site.
-
-**BanGIS Pro** (not public yet). A desktop GIS I've been building since 2024 for SAR and
-geospatial research. It has around 300 tools so far, SAR and InSAR processing written
-from scratch, and an assistant that can run a chain of steps from a plain request. Each
-tool writes a short report that cites the method it uses. There's a demo video on my
-portfolio.
+| Project | About |
+|---|---|
+| **[bGMO](https://github.com/TowhidulIslam27/bGMO)**<br>[live map](https://bmgo.sarsense.com) | Bangladesh Ground Motion Observatory. A web map of land movement in Dhaka, Chattogram, Khulna, Barishal, Sylhet and Cumilla, built from Sentinel-1 PS-InSAR results for 2016 to 2024. Click any point to see how it moved over time, or switch to the combined product that separates vertical and east-west motion. The processing scripts, the site and the data are all in the repository. |
+| **BanGIS Pro**<br>[demo on my portfolio](https://towhidulislam27.github.io/) | A desktop GIS I've been building since 2024 for SAR and geospatial research. Around 300 tools so far, SAR and InSAR processing written from scratch, and an assistant that can run a chain of steps from a plain request. Each tool writes a short report citing the method it uses. Not public yet. |
+| **[Portfolio](https://github.com/TowhidulIslam27/towhidulIslam27.github.io)** | The source for my personal site. |
 
 ### What I'm working on
 
