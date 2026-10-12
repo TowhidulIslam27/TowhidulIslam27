@@ -33,7 +33,7 @@ You can find more on my [portfolio](https://towhidulislam27.github.io/) and
 ### Background
 
 I did a PgD in Geo-Information Science and Earth Observation at ITC, University of
-Twente, where my thesis tracked a slow-moving landslide with PS-InSAR. Before that I
+Twente, where my study tracked a slow-moving landslide with PS-InSAR. Before that I
 did an MSc in Urban Management and Development at IHS, Erasmus University Rotterdam
 (on how urban flooding disrupts travel in Chittagong), and my BSc and MS in Geography
 and Environmental Studies at the University of Chittagong.
