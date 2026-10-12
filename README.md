@@ -1,62 +1,77 @@
-<h1>Hi, I'm Towhidul Islam 👋</h1>
+## Towhidul Islam
 
-**Geospatial researcher · InSAR & climate hazards** · Chittagong, Bangladesh
+I'm a geospatial researcher based in Chittagong, Bangladesh. Most of my work is about
+ground deformation and how it adds to flood risk in the cities of the Bengal delta. I
+use radar satellite data (InSAR), some machine learning, and a fair amount of my own
+code when the existing tools don't do what I need.
 
-I study how land subsidence, landslides and flooding combine into risk in data-scarce
-deltas like Bangladesh, using SAR/InSAR time series, explainable AI, and the tools I
-build to make that research reproducible. I founded and lead the research at
-**[SAR.Sense Geointelligence Lab](https://www.sarsense.com)**.
+In 2025 I started SAR.Sense Geointelligence Lab, where I run three research projects
+on subsidence and compound flood risk. I'm now looking for a funded PhD in
+geohazards, climate risk or Earth observation.
 
-🎓 **Open to funded PhD positions** in geohazards, climate risk or Earth observation,
-ideally on InSAR-based deformation and compound flood risk.
+You can find more on my [portfolio](https://towhidulislam27.github.io/) and
+[LinkedIn](https://www.linkedin.com/in/towhidullslam), or email me at m.towhid92@gmail.com.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-towhidulislam27.github.io-0f766e?style=flat-square)](https://towhidulislam27.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-towhidullslam-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/towhidullslam)
-[![Email](https://img.shields.io/badge/Email-m.towhid92%40gmail.com-c2410c?style=flat-square&logo=gmail&logoColor=white)](mailto:m.towhid92@gmail.com)
+### Projects on GitHub
 
----
+**[bGMO](https://github.com/TowhidulIslam27/bGMO)** (Bangladesh Ground Motion Observatory).
+A web map of land movement in Dhaka, Chattogram, Khulna, Barishal, Sylhet and Cumilla,
+built from Sentinel-1 PS-InSAR results for 2016 to 2024. You can click any point to see
+its displacement over time, and switch to a combined product that separates vertical
+and east-west motion. The processing scripts, the site and the data are all in the
+repository. The map itself is at [bmgo.sarsense.com](https://bmgo.sarsense.com).
 
-### 🛰️ Featured work
+**[Portfolio](https://github.com/TowhidulIslam27/towhidulIslam27.github.io)**. The source
+for my personal site.
 
-| Project | What it is |
-|---|---|
-| **[bGMO — Bangladesh Ground Motion Observatory](https://github.com/TowhidulIslam27/bGMO)** · [live map](https://bmgo.sarsense.com) | Interactive PS‑InSAR ground-motion map for Dhaka, Chattogram, Khulna, Barishal, Sylhet and Cumilla: 275,000+ persistent scatterers from Sentinel‑1 (2016–2024), with line-of-sight time series and a vertical / east–west decomposition. Processing code, website and data are open. |
-| **BanGIS Pro** · [demo on portfolio](https://towhidulislam27.github.io/) | AI-integrated desktop GIS for SAR and geospatial research: 312 tools released in 27 toolboxes, SAR/InSAR written from first principles, and *Hiron*, a built-in agent that runs multi-step workflows from plain-language requests. Every tool exports a report citing its method. |
-| **[Portfolio website](https://github.com/TowhidulIslam27/towhidulIslam27.github.io)** | My research profile, projects, publications and experience. |
+**BanGIS Pro** (not public yet). A desktop GIS I've been building since 2024 for SAR and
+geospatial research. It has around 300 tools so far, SAR and InSAR processing written
+from scratch, and an assistant that can run a chain of steps from a plain request. Each
+tool writes a short report that cites the method it uses. There's a demo video on my
+portfolio.
 
-### 🔬 Research I'm leading at SAR.Sense Lab
+### What I'm working on
 
-- **Nationwide Land Deformation Map of Bangladesh** (2025–) — Sentinel‑1 and ALOS‑2 archives processed with PS‑InSAR and SBAS for 2015–2025, with GNSS validation.
-- **Deformation Susceptibility with InSAR & XAI** (2025–) — explainable models (SHAP / LIME) linking deformation to geological and human drivers, so planners see where the ground moves and why.
-- **InSAR–ABM Compound-Risk Framework for Chittagong** (2025–) — coupling InSAR, flood data and an agent-based model of households to test how drainage and groundwater management change flood–subsidence risk.
+- A land deformation map for the whole of Bangladesh from Sentinel-1 and ALOS-2
+  (2015 to 2025), checked against GNSS.
+- Explaining where and why the ground moves, using SHAP and LIME on models that link
+  InSAR deformation to geology and human activity.
+- A model for Chittagong that combines InSAR, flood data and household behaviour, to
+  see how drainage and groundwater pumping change the combined flood and subsidence
+  risk.
 
-### 🧭 Research interests
+### Background
 
-`Ground deformation from InSAR` · `Land subsidence & landslides` · `Compound flood risk in deltaic cities` · `Explainable AI for hazard susceptibility` · `Earth observation in data-scarce regions`
+I did a PgD in Geo-Information Science and Earth Observation at ITC, University of
+Twente, where my thesis tracked a slow-moving landslide with PS-InSAR. Before that I
+did an MSc in Urban Management and Development at IHS, Erasmus University Rotterdam
+(on how urban flooding disrupts travel in Chittagong), and my BSc and MS in Geography
+and Environmental Studies at the University of Chittagong.
 
-### 🛠️ Tools I work with
+Outside the lab I've worked as a GIS consultant for icddr,b, as a junior researcher at
+the Red Cross Red Crescent Climate Centre on heat risk in Rajshahi, and I've taught GIS
+courses for some years.
 
-| | |
-|---|---|
-| **SAR / InSAR** | SNAP · LiCSBAS · PyGMTSAR · SARscape · StaMPS · PS / SBAS time series · Sentinel‑1 & ALOS‑2 · GNSS validation |
-| **GIS & EO** | ArcGIS Pro · QGIS · Google Earth Engine · ENVI · ERDAS IMAGINE · GRASS GIS · ILWIS · LISEM |
-| **Programming** | Python (NumPy, GeoPandas, Rasterio, SciPy) · R · MATLAB · PostgreSQL / PostGIS · SHAP / LIME · LaTeX |
-| **Geospatial dev** | React · TypeScript · JavaScript · FastAPI · Tauri · MapLibre GL · Leaflet |
+### Tools I use most
 
-### 🎓 Education
+For SAR and InSAR: SNAP, StaMPS, LiCSBAS, PyGMTSAR and SARscape, mostly with
+Sentinel-1 and ALOS-2. For GIS and remote sensing: QGIS, ArcGIS Pro, Google Earth
+Engine, ENVI and GRASS. I write most things in Python (NumPy, GeoPandas, Rasterio), with
+some R and MATLAB, and use PostGIS for data. For web and desktop tools: React,
+TypeScript, FastAPI, Tauri, MapLibre and Leaflet.
 
-- **PgD, Geo-Information Science and Earth Observation** — ITC, University of Twente (2021–2024) · *multi-sensor PSInSAR of a slow-moving landslide in a data-sparse region*
-- **MSc, Urban Management and Development** — IHS, Erasmus University Rotterdam (2019–2021) · *pluvial urban flooding and intracity travel in Chittagong*
-- **MS & BSc, Geography and Environmental Studies** — University of Chittagong (2012–2018)
+### Recent papers
 
-### 📄 Recent writing
+- Uddin, M.S., Mahmud, K., Islam, T., and Rahman, M.A. (2026). Explainable machine
+  learning assessment of hydroclimatic and land-surface controls on agricultural
+  drought in North-Western Bangladesh. *Journal of Hydrology*, under review.
+- Uddin, M.S., Mitra, B., Rahman, M.S., Mahmud, K., Islam, T., Rahman, S.M., and
+  Rahman, M.M. (2026). Integrating shared socioeconomic pathways and deep learning for
+  future CO2 emission forecasts in major European Union economies. *Environment,
+  Development and Sustainability*, minor revision.
+- Subedi, A., Islam, T., Khan, R., Hassan, A., and Hoogesteger, S. (2022).
+  *Identification of heat threshold and heat hotspots in Rajshahi, Bangladesh.* Red
+  Cross Red Crescent Climate Centre.
 
-- Uddin, M.S., Mahmud, K., **Islam, T.**, & Rahman, M.A. (2026). Explainable machine learning assessment of hydroclimatic and land-surface controls on agricultural drought in North-Western Bangladesh. *Journal of Hydrology* (under review).
-- Uddin, M.S., Mitra, B., Rahman, M.S., Mahmud, K., **Islam, T.**, Rahman, S.M., & Rahman, M.M. (2026). Integrating shared socioeconomic pathways and deep learning for future CO₂ emission forecasts in major EU economies. *Environment, Development and Sustainability* (minor revision).
-- Subedi, A., **Islam, T.**, Khan, R., Hassan, A., & Hoogesteger, S. (2022). *Identification of heat threshold and heat hotspots in Rajshahi, Bangladesh.* Red Cross Red Crescent Climate Centre (ARRCC).
-
-Full list on my [portfolio](https://towhidulislam27.github.io/).
-
----
-
-<sub>Share an interest in InSAR, geohazards or climate risk? I'd love to connect.</sub>
+The full list is on my portfolio. If you work on InSAR, subsidence or flood risk, feel
+free to get in touch.
