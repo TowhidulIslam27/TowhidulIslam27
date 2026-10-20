@@ -17,6 +17,7 @@ You can find more on my [portfolio](https://towhidulislam27.github.io/) and
 | Project | About |
 |---|---|
 | **[bGMO](https://github.com/TowhidulIslam27/bGMO)**<br>[live map](https://bmgo.sarsense.com) | Bangladesh Ground Motion Observatory. A web map of land movement in Dhaka, Chattogram, Khulna, Barishal, Sylhet and Cumilla, built from Sentinel-1 PS-InSAR results for 2016 to 2024. Click any point to see how it moved over time, or switch to the combined product that separates vertical and east-west motion. The processing scripts, the site and the data are all in the repository. |
+| **[xai-urban-subsidence-bd](https://github.com/TowhidulIslam27/xai-urban-subsidence-bd)** | Why is the ground sinking in Dhaka and Chattogram, and do the same drivers apply in both? Explainable machine learning on my PS-InSAR vertical velocities: 60+ terrain, geology, land-cover and urban factors on a 100 m grid, screened and modelled with spatial cross-validation. Work in progress; the code and first results are up. |
 | **BanGIS Pro**<br>[demo on my portfolio](https://towhidulislam27.github.io/) | A desktop GIS I've been building since 2024 for SAR and geospatial research. Around 300 tools so far, SAR and InSAR processing written from scratch, and an assistant that can run a chain of steps from a plain request. Each tool writes a short report citing the method it uses. Not public yet. |
 | **[Portfolio](https://github.com/TowhidulIslam27/towhidulIslam27.github.io)** | The source for my personal site. |
 
@@ -24,8 +25,9 @@ You can find more on my [portfolio](https://towhidulislam27.github.io/) and
 
 - A land deformation map for the whole of Bangladesh from Sentinel-1 and ALOS-2
   (2015 to 2025), checked against GNSS.
-- Explaining where and why the ground moves, using SHAP and LIME on models that link
-  InSAR deformation to geology and human activity.
+- Explaining where and why the ground moves, using SHAP on models that link InSAR
+  deformation to geology and human activity, and testing whether those drivers carry
+  over from Dhaka to Chattogram ([repo](https://github.com/TowhidulIslam27/xai-urban-subsidence-bd)).
 - A model for Chittagong that combines InSAR, flood data and household behaviour, to
   see how drainage and groundwater pumping change the combined flood and subsidence
   risk.
