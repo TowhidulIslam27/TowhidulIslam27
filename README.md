@@ -1,36 +1,42 @@
 ## Towhidul Islam
 
 I'm a geospatial researcher based in Chittagong, Bangladesh. Most of my work is about
-ground deformation and how it adds to flood risk in the cities of the Bengal delta. I
-use radar satellite data (InSAR), some machine learning, and a fair amount of my own
-code when the existing tools don't do what I need.
+how the ground moves in the cities and hills of the Bengal delta, and how subsidence,
+landslides and flooding add up to risk for the people living there. I use radar satellite
+data (InSAR), some machine learning, and a fair amount of my own code when the existing
+tools don't do what I need.
 
-In 2025 I started SAR.Sense Geointelligence Lab, where I run three research projects
-on subsidence and compound flood risk. I'm now looking for a funded PhD in
-geohazards, climate risk or Earth observation.
+In 2025 I started SAR.Sense Geointelligence Lab, where I lead three research projects on
+ground deformation and hazard risk. I'm now looking for a funded PhD in geohazards,
+climate risk or Earth observation, and I'm ready to do it full-time.
 
 You can find more on my [portfolio](https://towhidulislam27.github.io/) and
 [LinkedIn](https://www.linkedin.com/in/towhidullslam), or email me at m.towhid92@gmail.com.
 
-### Projects on GitHub
+### Research projects
 
 | Project | About |
 |---|---|
-| **[bGMO](https://github.com/TowhidulIslam27/bGMO)**<br>[live map](https://bmgo.sarsense.com) | Bangladesh Ground Motion Observatory. A web map of land movement in Dhaka, Chattogram, Khulna, Barishal, Sylhet and Cumilla, built from Sentinel-1 PS-InSAR results for 2016 to 2024. Click any point to see how it moved over time, or switch to the combined product that separates vertical and east-west motion. The processing scripts, the site and the data are all in the repository. |
-| **[xai-urban-subsidence-bd](https://github.com/TowhidulIslam27/xai-urban-subsidence-bd)** | Why is the ground sinking in Dhaka and Chattogram, and do the same drivers apply in both? Explainable machine learning on my PS-InSAR vertical velocities: 60+ terrain, geology, land-cover and urban factors on a 100 m grid, screened and modelled with spatial cross-validation. Work in progress; the code and first results are up. |
-| **BanGIS Pro**<br>[demo on my portfolio](https://towhidulislam27.github.io/) | A desktop GIS I've been building since 2024 for SAR and geospatial research. Around 300 tools so far, SAR and InSAR processing written from scratch, and an assistant that can run a chain of steps from a plain request. Each tool writes a short report citing the method it uses. Not public yet. |
-| **[Portfolio](https://github.com/TowhidulIslam27/towhidulIslam27.github.io)** | The source for my personal site. |
+| **[bGMO](https://github.com/TowhidulIslam27/bGMO)**<br>[live map](https://bgmo.sarsense.com) | Bangladesh Ground Motion Observatory. A web map of land movement in Dhaka, Chattogram, Khulna, Barishal, Sylhet and Cumilla, built from Sentinel-1 PS-InSAR results for 2016 to 2024. Click any point to see how it moved over time, or switch to the combined product that separates vertical and east-west motion. Rates are relative to a local reference area for now; calibration against GNSS is the next step. |
+| **[xai-urban-subsidence-bd](https://github.com/TowhidulIslam27/xai-urban-subsidence-bd)** | Why is the ground sinking in Dhaka and Chattogram, and do the same drivers apply in both? Explainable machine learning on my PS-InSAR vertical velocities: about 64 terrain, geology, land-cover and urban factors per city on a 100 m grid, screened and modelled with spatial cross-validation. Work in progress. The first results are up, including the baseline a model that only knows coordinates sets for the factors to beat. |
+| **Integrated landslide early warning** (private for now) | A daily landslide early warning for the Rangamati hills, the Rohingya camps in Ukhia and Teknaf, and the hills of Chattogram city. So far: an inventory of about 3,400 landslide records and a first terrain-only susceptibility baseline, tested on held-out blocks and compared with simple baselines. Rainfall thresholds and InSAR slope movement come next. |
+
+### Software
+
+| Project | About |
+|---|---|
+| **BanGIS Pro**<br>[demo on my portfolio](https://towhidulislam27.github.io/) | A desktop GIS ("GIS Made Simple") I've been building since 2024 for SAR and geospatial research. 312 tools in 27 toolboxes so far, Google Earth Engine and open data built in, a Python console, and Hiron, an AI agent that plans and runs a chain of GIS and SAR steps from a plain request. Each tool writes a short report citing the method it uses. A dedicated SAR environment, SAR Studio, is still in development. Not public yet. |
+| **[Portfolio](https://github.com/TowhidulIslam27/TowhidulIslam27.github.io)** | The source for my personal site. |
 
 ### What I'm working on
 
-- A land deformation map for the whole of Bangladesh from Sentinel-1 and ALOS-2
-  (2015 to 2025), checked against GNSS.
+- A land deformation map for the whole of Bangladesh from Sentinel-1 (2016 to 2024),
+  with six cities processed so far and the rest in progress.
 - Explaining where and why the ground moves, using SHAP on models that link InSAR
   deformation to geology and human activity, and testing whether those drivers carry
   over from Dhaka to Chattogram ([repo](https://github.com/TowhidulIslam27/xai-urban-subsidence-bd)).
-- A model for Chittagong that combines InSAR, flood data and household behaviour, to
-  see how drainage and groundwater pumping change the combined flood and subsidence
-  risk.
+- Adding rainfall thresholds and InSAR slope movement to the landslide susceptibility
+  baseline, to test a daily early warning for 2017 to 2026.
 
 ### Background
 
@@ -52,7 +58,16 @@ Engine, ENVI and GRASS. I write most things in Python (NumPy, GeoPandas, Rasteri
 some R and MATLAB, and use PostGIS for data. For web and desktop tools: React,
 TypeScript, FastAPI, Tauri, MapLibre and Leaflet.
 
-### Recent papers
+### Papers
+
+In preparation, as lead author:
+
+- Islam, T., et al. Ground motion and infrastructure exposure in Bangladesh's three
+  largest cities from multi-geometry PS-InSAR.
+- Islam, T., et al. Do the drivers of urban subsidence transfer between cities? An
+  InSAR-XAI look into Dhaka and Chattogram City of Bangladesh.
+
+Co-authored:
 
 - Uddin, M.S., Mahmud, K., Islam, T., and Rahman, M.A. (2026). Explainable machine
   learning assessment of hydroclimatic and land-surface controls on agricultural
@@ -65,5 +80,5 @@ TypeScript, FastAPI, Tauri, MapLibre and Leaflet.
   *Identification of heat threshold and heat hotspots in Rajshahi, Bangladesh.* Red
   Cross Red Crescent Climate Centre.
 
-The full list is on my portfolio. If you work on InSAR, subsidence or flood risk, feel
-free to get in touch.
+The full list is on my portfolio. If you work on InSAR, subsidence or landslide risk,
+feel free to get in touch.
